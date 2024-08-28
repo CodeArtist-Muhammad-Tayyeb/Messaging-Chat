@@ -240,7 +240,7 @@ body{
         top: 80px;
         right: 18px;
         width: 350px; 
-        height: 620px;
+        height: 604px;
         z-index: 5;
         width: 90%; 
         bottom: 70px; 
@@ -250,7 +250,7 @@ body{
         left: 20px;
         color: #fff;
         border: 2px solid #fff;
-        padding: 2px 107px;
+        padding: 2px 124px;
         font-size: 25px;
     }
     #input-box {
@@ -261,10 +261,10 @@ body{
         font-size: 16px;
     }
     .chat-area {
-        height: 460px;
+        height: 440px;
     }
     .little-Intro{
-        margin-top: 42.7rem;
+        margin-top: 41.8rem;
         position: relative;
         right: 8px;
     }
