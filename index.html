@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat-Bot</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="Icon" href="./Assest/icons8-messages-96.png">
+</head>
+<body>
+    <h1 id="head1">Chat-Bot</h1>
+    <p class="little-Intro">Design by <a href="https://m-tayyeb-personal-portfolio.vercel.app/"
+        target="_blank">Code-Artist</a></p>
+        
+    <button class="chat-visible-invisible" onclick="forChatVisiblity()">
+        <img src="./Assest/icons8-messages-50 offwhite.png" alt="Chat-Button">
+    </button>
+
+    <div class="chat-container" id="chat-Box">
+        <!-- Seach Bar -->
+        <div class="search-container">
+            <div class="search-bar">
+                <input type="text" id="input-box" required>
+                <label for="">Search</label>
+                <button id="search-button">
+                    <img src="./Assest/icon-search.png" alt="Search Icon" width="20px">
+                </button>
+            </div>
+        </div>
+
+        <!-- Message Send Side -->
+        <div class="chat-area" id="chat-window">
+            <!-- Area for Messaging -->
+        </div>
+        <div class="input-container">
+            <input type="text" id="user-input" required>
+            <label for="">Type a message</label>
+            <button onclick="sendMessage()" id="send-button">
+                <img src="./Assest/icons-send.png" alt="Sending Icon" width="20px">
+            </button>
+        </div>
+    </div>
+
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
